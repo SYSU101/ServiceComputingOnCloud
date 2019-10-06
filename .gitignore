@@ -1,0 +1,7 @@
+/projects/bin/
+/projects/pkg/
+/projects/src/github.com/*
+!/projects/src/github.com/SYSU101
+
+.DS_Store
+

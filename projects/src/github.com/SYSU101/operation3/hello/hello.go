@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/SYSU101/stringutil"
+	"github.com/SYSU101/operation3/stringutil"
 )
 
 func main() {

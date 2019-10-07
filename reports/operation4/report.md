@@ -21,7 +21,7 @@
     > 该命令将把“\$INPUT_FILE”的第 1 页写至标准输出（也就是屏幕），因为这里有 重 定向或管道。
 
     测试结果：
-    ![test1](./.assets/test1.jpeg)
+    ![test1](./assets/imgs/test1.jpeg)
 1. 
     测试命令：
     > selpg -s1 -e1 -l4 < \$INPUT_FILE
@@ -30,7 +30,7 @@
     > 该命令与测试 1 所做的工作相同，但在本测试中，selpg 读取标准输入，而标准输入已被 shell／内核重定向为来自“input_file”而不是显式命名的文件名参数。输入的第 1 页被写至屏幕。
 
     测试结果：
-    ![test2](./.assets/test2.jpeg)
+    ![test2](./assets/imgs/test2.jpeg)
   
 1.
     测试命令：
@@ -40,7 +40,7 @@
     > “cat \$INPUT_FILE”的标准输出被 shell／内核重定向至 selpg 的标准输入。将第 1 页到第 2 页写至 selpg 的标准输出（屏幕）。
 
     测试结果：
-    ![test3](./.assets/test3.jpeg)
+    ![test3](./assets/imgs/test3.jpeg)
 
 1.
     测试命令：
@@ -50,8 +50,8 @@
     > selpg 将第 1 页到第 2 页写至标准输出；标准输出被 shell／内核重定向至“\$OUTPUT_FILE”。
 
     测试结果：
-    ![test4-1](./.assets/test4-1.jpeg)
-    ![test4-2](./.assets/test4-2.jpeg)
+    ![test4-1](./assets/imgs/test4-1.jpeg)
+    ![test4-2](./assets/imgs/test4-2.jpeg)
   ……（后面太长不想测）
 
 ### 程序逻辑

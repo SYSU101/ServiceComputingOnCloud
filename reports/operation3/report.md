@@ -14,10 +14,10 @@ mkdir my-go-workspace/src/github.com/SYSU101
 # 由于 pkg 和 bin 文件夹会由 go 工具自行创建，因此先不用管这两个文件夹
 ```
 &emsp;&emsp;运行结果：  
-![创建工作环境](./.assets/img/1.png)  
+![创建工作环境](./assets/imgs/1.png)  
 &emsp;&emsp;然后执行`export GOPATH=$HOME/Desktop/ServiceComputingOnCloud/projects/operation3/my-go-workspace`以创建`GOPATH`环境变量。  
 &emsp;&emsp;运行结果：  
-![设置环境变量](./.assets/img/2.png)  
+![设置环境变量](./assets/imgs/2.png)  
 &emsp;&emsp;**这里使用绝对路径太长了，用相对路径可不可以？从笔者为数不多的Go使用经历来看，不可以，会在之后构建包时报错，理由是`GOPATH`不能为相对路径。**  
 <br />
 
@@ -36,7 +36,7 @@ func main() {
 ```
 &emsp;&emsp;然后使用`go install github.com/user/hello`命令安装此包，就可以执行`$GOPATH/bin/hello`运行生成的包啦！  
 &emsp;&emsp;运行结果：  
-![创建并安装第一个包](./.assets/img/3.png)  
+![创建并安装第一个包](./assets/imgs/3.png)  
 <br />
 
 #### 创建第一个包并调用它  
@@ -68,7 +68,7 @@ func main() {
 }
 ```
 &emsp;&emsp;执行`go install github.com/user/hello`命令，构建`hello`命令，然后执行`$GOPATH/bin/hello`，就可以看到：  
-![创建并调用包](./.assets/img/4.png)  
+![创建并调用包](./assets/imgs/4.png)  
 <br />
 
 #### 测试
@@ -95,4 +95,4 @@ func TestReverse(t *testing.T) {
 }
 ```
 &emsp;&emsp;接着使用`go test github.com/SYSU101/stringutil`运行该测试：  
-![测试](./.assets/img/5.png)  
+![测试](./assets/imgs/5.png)  

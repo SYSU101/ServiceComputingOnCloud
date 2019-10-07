@@ -33,7 +33,7 @@
     ![test2](./assets/imgs/test2.jpeg)
 1. 
     测试命令：
-    > cat \$INPUT_FILE | selpg -s1 -e2 -l4
+    > cat \$INPUT_FILE \| selpg -s1 -e2 -l4
 
     测试描述：
     > “cat \$INPUT_FILE”的标准输出被 shell／内核重定向至 selpg 的标准输入。将第 1 页到第 2 页写至 selpg 的标准输出（屏幕）。

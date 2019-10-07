@@ -31,8 +31,7 @@
 
     测试结果：
     ![test2](./assets/imgs/test2.jpeg)
-  
-1.
+1. 
     测试命令：
     > cat \$INPUT_FILE | selpg -s1 -e2 -l4
 
@@ -42,7 +41,7 @@
     测试结果：
     ![test3](./assets/imgs/test3.jpeg)
 
-1.
+1. 
     测试命令：
     > selpg -s1 -e2 -l4 \$INPUT_FILE >\$OUTPUT_FILE
 

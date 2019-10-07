@@ -1,7 +1,9 @@
 /projects/bin/
 /projects/pkg/
 /projects/src/github.com/*
+/projects/src/golang.org/*
 !/projects/src/github.com/SYSU101
+/testdatas/outputs/
 
 .DS_Store
 

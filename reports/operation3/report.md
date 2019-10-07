@@ -21,6 +21,8 @@ mkdir my-go-workspace/src/github.com/SYSU101
 &emsp;&emsp;**这里使用绝对路径太长了，用相对路径可不可以？从笔者为数不多的Go使用经历来看，不可以，会在之后构建包时报错，理由是`GOPATH`不能为相对路径。**  
 <br />
 
+### 实验内容
+---
 #### 创建并安装第一个包
 &emsp;&emsp;在`$GOPATH/src/github.com/SYSU101`下，创建一个名为`hello`的文件夹，并在该文件下再创建一个名为`hello.go`的文件，在`hello.go`里，写入以下代码：  
 ```golang

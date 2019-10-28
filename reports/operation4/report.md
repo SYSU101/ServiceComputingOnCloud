@@ -5,7 +5,7 @@
 ### 一些额外说明 
 ---
 #### 关于源代码存放位置
-由于对课程作业目录进行了一次重新组织，将[../../projects/](https://github.com/SYSU101/ServiceComputingOnCloud/tree/master/projects)文件夹改为 Go 工作空间，仅存放代码而不存放报告，因此本次实验源代码请戳[这里](https://github.com/SYSU101/ServiceComputingOnCloud/tree/master/projects/src/github.com/SYSU101/operation4/selpg)，带来的改作业上的不便，敬请谅解。
+由于对课程作业目录进行了一次重新组织，将[../../projects/](https://github.com/SYSU101/ServiceComputingOnCloud/tree/master/projects)文件夹改为 Go 工作空间，仅存放代码而不存放报告，因此本次实验源代码请戳[这里](https://github.com/SYSU101/ServiceComputingOnCloud/tree/master/projects/src/github.com/SYSU101/selpg)，带来的改作业上的不便，敬请谅解。
 #### 关于测试
 由于原 selpg 项目中测试时使用的默认将每72行视为一页的做法会带来对测试结果展示上的不便，因此**将部分测试命令加上`-l4`选项，即将每4行视为一页**。要对该选项的默认值进行测试，请下载源代码到本地上进行测试。  
     
